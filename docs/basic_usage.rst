@@ -170,7 +170,7 @@ and set up the relationship at database level:
 
 .. code-block:: text
 
-    python db.py migrations:make create_posts_table --table posts --create
+    python db.py make:migration create_posts_table --table posts --create
 
 And we modify the generated file to look like this:
 
