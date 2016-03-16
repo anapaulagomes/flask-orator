@@ -105,7 +105,7 @@ Then, you can run the migration:
 
 .. code-block:: text
 
-    python db.py migrations:run
+    python db.py migrate
 
 Confirm and you database and table will be created.
 
@@ -204,7 +204,7 @@ Finally we run it:
 
 .. code-block:: text
 
-    python db.py migrations:run
+    python db.py migrate
 
 We can now instantiate some posts:
 
